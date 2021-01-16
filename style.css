@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh
+}
+
+.container
+{
+    background: #080808;
+    width: 600px;
+    min-height: 600px;
+    color: #fff;
+    padding: 50px 80px;
+}
+.div-clock
+{
+     font-size: 75px;
+     text-align: center;
+     color: #ba5429;
+}
+label#clock
+{
+     width:300px;
+}
+span
+{
+    display: inline-block;
+    width:75px;
+}
+span:nth-child(1)
+{
+    text-align: right
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.btn div{
+    width:77px;
+    height: 77px;
+    border-radius: 50%;
+    background:gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border: 2px solid #000;
+}
+
+.btn{
+    background: gray;
+    padding: 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#start.btn-danger, .btn-danger div
+{
+    background: rgba(255, 47, 47, 0.15);
+    color: #c00;
+}
+#content
+{
+    margin-top: 20px;
+}
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid gray;
+    padding: 8px 0;
+    font-size:20px;
+    height:40.4px;
+}
